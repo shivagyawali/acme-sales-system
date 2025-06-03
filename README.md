@@ -28,7 +28,7 @@ It implements a basket with products, delivery cost calculation, and discount of
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/acme-widget-sales.git
+git clone https://github.com/shivagyawali/acme-sales-system.git
 cd acme-widget-sales
 
 ```
@@ -48,22 +48,5 @@ composer install
 docker-compose up --build
 
 ```
-## Project Structure
-acme-widget-sales/
-├── src/                  # Source code
-│   ├── Catalog.php
-│   ├── Basket.php
-│   ├── DeliveryCostCalculator.php
-│   └── Offers/
-│       └── BuyOneHalfPrice.php
-├── tests/                # PHPUnit tests
-│   └── BasketTest.php
-├── composer.json
-├── composer.lock
-├── phpunit.xml           # PHPUnit configuration
-├── Dockerfile
-├── docker-compose.yml
-└── README.md
-
 
 
