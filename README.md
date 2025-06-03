@@ -29,7 +29,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/shivagyawali/acme-sales-system.git
-cd acme-widget-sales
+cd acme-sales-system
 
 ```
 ## Install PHP dependencies with Composer
