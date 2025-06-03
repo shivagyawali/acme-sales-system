@@ -1,0 +1,22 @@
+{
+  "name": "acme/widget-basket",
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^10",
+    "phpstan/phpstan": "^1.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Acme\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Acme\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "analyze": "phpstan analyse src"
+  }
+}
